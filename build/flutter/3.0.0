@@ -1,0 +1,23 @@
+Running package command
+Extra PyPi indexes: [https://pypi.flet.dev]
+Creating asset directory: C:\Users\hp\Documents\ESTUDIO2026\APP_CHECK\build\flutter\app
+Created temp directory: C:\Users\hp\AppData\Local\Temp\serious_python_temp6407e21d
+Copying Python app from C:\Users\hp\Documents\ESTUDIO2026\APP_CHECK to a temp directory
+Cleanup app
+Configured Android/arm64-v8a platform with sitecustomize.py
+Installing [flet, openpyxl, pandas] with pip command to C:\Users\hp\Documents\ESTUDIO2026\APP_CHECK\build\site-packages\arm64-v8a
+Downloading Python distributive from https://github.com/indygreg/python-build-standalone/releases/download/20240909/cpython-3.12.6+20240909-x86_64-pc-windows-msvc-shared-install_only_stripped.tar.gz to a build directory
+Extracting Python distributive
+Cleanup installed packages
+Configured Android/armeabi-v7a platform with sitecustomize.py
+Installing [flet, openpyxl, pandas] with pip command to C:\Users\hp\Documents\ESTUDIO2026\APP_CHECK\build\site-packages\armeabi-v7a
+Cleanup installed packages
+Configured Android/x86_64 platform with sitecustomize.py
+Installing [flet, openpyxl, pandas] with pip command to C:\Users\hp\Documents\ESTUDIO2026\APP_CHECK\build\site-packages\x86_64
+Cleanup installed packages
+Configured Android/x86 platform with sitecustomize.py
+Installing [flet, openpyxl, pandas] with pip command to C:\Users\hp\Documents\ESTUDIO2026\APP_CHECK\build\site-packages\x86
+Cleanup installed packages
+Creating app archive at C:\Users\hp\Documents\ESTUDIO2026\APP_CHECK\build\flutter\app/app.zip from a temp directory
+Writing app archive hash to C:\Users\hp\Documents\ESTUDIO2026\APP_CHECK\build\flutter\app/app.zip.hash
+Deleting temp directory

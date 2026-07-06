@@ -1,0 +1,21 @@
+[project]
+name = "salud-peru"
+version = "1.0.0"
+description = "App médica para profesionales de la salud en Perú"
+dependencies = [
+    "flet>=0.85.0",
+    "pandas>=3.0.0",
+    "openpyxl>=3.1.0"
+]
+
+[tool.flet.android]
+include_packages = [
+    "pandas",
+    "numpy",
+    "openpyxl"
+]
+split_per_abi = true
+
+[tool.flet.app]
+author = "Tu Nombre"
+author_email = "tu@email.com"
