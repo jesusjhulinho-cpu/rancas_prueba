@@ -1,21 +1,14 @@
 [project]
-name = "salud-peru"
+name = "rancas-prueba"
 version = "1.0.0"
-description = "App médica para profesionales de la salud en Perú"
+description = "Rancas Prueba - App médica"
 dependencies = [
-    "flet>=0.85.0",
-    "pandas>=3.0.0",
-    "openpyxl>=3.1.0"
+    "flet>=0.24.0"
 ]
 
 [tool.flet.android]
-include_packages = [
-    "pandas",
-    "numpy",
-    "openpyxl"
-]
-split_per_abi = true
+include_packages = []
 
 [tool.flet.app]
-author = "Tu Nombre"
+author = "Jesus Jhulinho"
 author_email = "tu@email.com"

@@ -7,7 +7,7 @@ from modules.calculadoras import create_calculadoras_module
 COLOR_PRIMARY = ft.Colors.BLUE_700
 
 def main(page: ft.Page):
-    page.title = "Salud Perú - App Médica"
+    page.title = "Rancas Prueba"
     page.theme_mode = ft.ThemeMode.LIGHT
     page.theme = ft.Theme(color_scheme_seed=COLOR_PRIMARY)
     page.dark_theme = ft.Theme(color_scheme_seed=COLOR_PRIMARY)
@@ -33,7 +33,6 @@ def main(page: ft.Page):
         content_container.content = modules[index]
         content_container.update()
     
-    # ✅ CORREGIDO: ALWAYS_SHOW en lugar de ALWAYS_VISIBLE
     nav_bar = ft.NavigationBar(
         selected_index=0,
         label_behavior=ft.NavigationBarLabelBehavior.ALWAYS_SHOW,
@@ -52,7 +51,7 @@ def main(page: ft.Page):
         content=ft.Row(
             controls=[
                 ft.Icon(ft.icons.MEDICAL_SERVICES, color=COLOR_PRIMARY, size=28),
-                ft.Text("Salud Perú", size=22, weight=ft.FontWeight.BOLD, color=COLOR_PRIMARY)
+                ft.Text("Rancas Prueba", size=22, weight=ft.FontWeight.BOLD, color=COLOR_PRIMARY)
             ],
             alignment=ft.MainAxisAlignment.CENTER
         ),
