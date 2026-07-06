@@ -19,14 +19,16 @@ jobs:
       - name: Install Flet
         run: |
           python -m pip install --upgrade pip
-          pip install flet==0.24.0
+          pip install flet==0.27.0
       
       - name: Build APK
         run: |
-          yes | flet build apk --split-per-abi
+          yes | flet build apk
       
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
           name: rancas-prueba-apk
-          path: build/apk/*.apk
+          path: |
+            build/apk/*.apk
+            build/app/outputs/flutter-apk/*.apk
